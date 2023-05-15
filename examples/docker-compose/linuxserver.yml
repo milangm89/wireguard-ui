@@ -3,7 +3,7 @@ version: "3"
 services:
   wireguard:
     image: linuxserver/wireguard:latest
-    container_name: wireguard
+#     container_name: wireguard
     cap_add:
       - NET_ADMIN
     volumes:
