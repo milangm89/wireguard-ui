@@ -20,8 +20,8 @@ services:
       - WGUI_MANAGE_RESTART=false
 #     logging:
 #       driver: json-file
-      options:
-        max-size: 50m
+#       options:
+#         max-size: 50m
     volumes:
       - ./db:/app/db
       - /etc/wireguard:/etc/wireguard
